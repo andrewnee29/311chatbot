@@ -6,7 +6,7 @@ library(jsonlite)
 # SETUP: Add your Cohere API key here
 # ============================================
 # Get a free API key at: https://dashboard.cohere.com/api-keys
-COHERE_API_KEY <- "aQuqeMYYSGQNH32xo8Hv5FlvmL77LUB9auQAI6ii"
+COHERE_API_KEY <- "YOUR COHERE API HERE"
 
 
 # Or hardcode it: COHERE_API_KEY <- "your-cohere-api-key-here"
@@ -586,5 +586,6 @@ if (use_ai) {
   cat("⚠️  Keyword matching mode\n")
   cat("💡 To enable Cohere AI: Get free API key from https://dashboard.cohere.com/api-keys\n")
 }
+
 
 shinyApp(ui = ui, server = server)
